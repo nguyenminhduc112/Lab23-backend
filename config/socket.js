@@ -5,7 +5,7 @@ module.exports = {
         const { Server } = require('socket.io');
         io = new Server(httpServer, {
             cors: {
-                origin: 'http://localhost:3000'
+                origin: 'https://lab23-frontend.onrender.com'
             }
         })
         return io
